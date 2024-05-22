@@ -1,3 +1,6 @@
+from google.colab import files
+uploaded = files.upload()
+
 import streamlit as st
 import pandas as pd
 import cv2
