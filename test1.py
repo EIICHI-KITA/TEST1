@@ -4,13 +4,13 @@
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 st.write("""
 # My first app
 Hello *world!*
 """)
-plt.imshow('sample.jpg')
+# plt.imshow('sample.jpg')
 
 # import cv2
 # import math
