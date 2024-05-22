@@ -5,6 +5,9 @@
 import streamlit as st
 import pandas as pd
 # import matplotlib.pyplot as plt
+import mediapipe as mp
+from mediapipe.tasks import python
+from mediapipe.tasks.python import vision
 
 st.write("""
 # My first app
