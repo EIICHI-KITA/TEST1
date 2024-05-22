@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import cv2
+from google.colab.patches import cv2_imshow
 
 st.write("""
 # My first app
