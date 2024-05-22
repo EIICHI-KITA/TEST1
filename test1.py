@@ -1,14 +1,16 @@
-from google.colab import files
-uploaded = files.upload()
+# from google.colab import files
+# uploaded = files.upload()
+# import cv2 from google.colab.patches import cv2_imshow
 
 import streamlit as st
 import pandas as pd
-# import cv2 from google.colab.patches import cv2_imshow
+import matplotlib.pyplot as plt
 
 st.write("""
 # My first app
 Hello *world!*
 """)
+plt.imshow('sample.jpg')
 
 # import cv2
 # import math
