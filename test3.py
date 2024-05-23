@@ -1,6 +1,9 @@
-import io
-import requests
-import PIL.Image
+import matplotlib.pyplot as plt
 
-response = requests.get("https://www.python.jp/logo.png")
-PIL.Image.open(io.BytesIO(response.content))
+x_values = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June']
+y_values = [100, 130, 80, 150, 140, 130]
+
+plt.bar(x_values, y_values)
+plt.plot()
+
+plt.show()
