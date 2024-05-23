@@ -1,3 +1,5 @@
+pip install matplotlib
+
 import matplotlib.pyplot as plt
 
 x_values = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June']
