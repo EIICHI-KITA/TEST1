@@ -1,14 +1,3 @@
-# pip install matplotlib
-# !pip install -q matplotlib
-# import matplotlib.pyplot as plt
-
-from pathlib import Path
-import colorsys
-from typing import Tuple, List
-from dataclasses import dataclass
-
-import numpy as np
-
 import matplotlib.pyplot as plt
 import numpy as np
 
