@@ -16,7 +16,7 @@ import numpy as np
 # from matplotlib.patches import Ellipse
 # import matplotlib.patheffects as PathEffects
 
-from prettymapp.settings import STREETS_WIDTH
+# from prettymapp.settings import STREETS_WIDTH
 
 x_values = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June']
 y_values = [100, 130, 80, 150, 140, 130]
