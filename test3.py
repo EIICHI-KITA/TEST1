@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib as plt
 import numpy as np
 
 x_values = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June']
