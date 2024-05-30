@@ -1,4 +1,5 @@
-import matplotlib as plt
+import streamlit as st
+import matplotlib.pyplot as plt
 import numpy as np
 
 x_values = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June']
