@@ -7,8 +7,8 @@ import colorsys
 from typing import Tuple, List
 from dataclasses import dataclass
 
-from geopandas.plotting import _plot_polygon_collection, _plot_linestring_collection
-from geopandas import GeoDataFrame
+# from geopandas.plotting import _plot_polygon_collection, _plot_linestring_collection
+# from geopandas import GeoDataFrame
 import numpy as np
 from matplotlib.colors import ListedColormap, cnames, to_rgb
 from matplotlib.pyplot import subplots, Rectangle
